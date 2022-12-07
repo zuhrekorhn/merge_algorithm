@@ -1,0 +1,15 @@
+Proje2 
+Merge Sort 
+Merge Sort (Birleştirme Sıralaması), diziyi ardışık olarak en küçük alt dizilerine kadar yarılayan sonra da onları sıraya koyarak bireştiren özyineli bir algoritmadır.
+
+[16,21,11,8,12,22] -> Merge Sort 
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+1.aşama: dizi ortadan ikiye ayrılır : [16,21,11]  [8,12,22] olarak
+2.aşama: ayrılan iki parça kendi arasında tekrar bölünür [16,21] [11] [8,12] [22]
+3.aşama : [16],[21],[11],[8],[12],[22]  
+4.aşama : bölünenler kendi aralrında sıralanır [16,21] [8,11] [12,22]
+5.aşama: [8,11,16,21] [12,22]
+7.aşama: [8,11,12,16,21,22] sonuçtur.
+
+Big-o -> Birleştirme sıralaması her zaman diziyi ikiye böldüğünden ve iki yarıyı birleştirmek için doğrusal zaman aldığından big-o: nlogn dir
